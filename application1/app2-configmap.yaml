@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: app1-config
-  namespace: default
+  namespace: argocd
 data:
   game.properties: |
     enemies=aliens
