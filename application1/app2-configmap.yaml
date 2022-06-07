@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app1-config
+  namespace: default
+data:
+  game.properties: |
+    enemies=aliens
+    lives=4
+    enemies.cheat=false
+    enemies.cheat.level=noGood
+    secret.code.passphrase=RLRBABAS
+    secret.code.allowed=false
+    secret.code.lives=30    
